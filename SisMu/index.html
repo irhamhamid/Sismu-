@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H!Rin Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><span>H</span><span class="highlight">!</span>Rin</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#" class="menu-link" data-target="teori-dasar">Materi</a></li>
+                    <li><a href="#" class="menu-link" data-target="contact-info">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="text-content">
+                <h2>SELAMAT DATANG!</h2>
+                <p class="sambutan">Selamat datang di bab 2 dari perjalanan pembelajaran web Saya! Di bab ini, saya akan mengeksplorasi lebih dalam mengenai kemampuan penting dalam pengembangan web.</p>
+                <p class="sambutan">Fokus utama saya adalah memahami bentuk-bentuk CSS, elemen layout HTML, dan elemen form HTML5, yang semuanya merupakan komponen vital dalam membangun halaman web yang interaktif dan responsif.</p>
+                <div class="baca-materi">
+                    <a href="#" class="menu-link" data-target="teori-dasar">Baca Materi</a>
+                </div>
+            </div>
+            <img src="home.png" alt="Home Image" class="home-image">
+        </section>
+
+        <section class="container" id="teori-dasar">
+            <div class="head">
+                <div class="text">
+                    <h2 class="head-text">Dasar Teori</h2>
+                    <p class="head-desc">Selamat datang, petualang! Bersiaplah untuk menyelami dunia magis di balik layar sebuah halaman web yang terlihat begitu memukau. Pernahkah Anda bertanya-tanya, bagaimana sebuah situs bisa begitu elegan dan teratur, dengan warna-warna yang menarik mata, tata letak yang sempurna, serta animasi yang mengagumkan? Rahasianya terletak pada CSS – singkatan dari Cascading Style Sheets.</p>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="items-materi">
+                    <h2 class="items-head">External CSS</h2>
+                    <p class="items-icon">#</p>
+                    <p class="items-desc">Dengan <i>external CSS</i>, kamu hanya perlu satu file CSS untuk seluruh halaman di situsmu. Ini membuat pengaturan gaya lebih mudah dan konsisten di seluruh halaman.</p>
+                </div>
+                <div class="items-materi">
+                    <h2 class="items-head">Internal CSS</h2>
+                    <p class="items-icon">{}</p>
+                    <p class="items-desc">Dengan <i>internal CSS</i>, kamu menaruh aturan gaya di bagian <i>head</i> dokumen HTML untuk mengatur tampilan halaman tersebut.</p>
+                </div>
+                <div class="items-materi">
+                    <h2 class="items-head">Inline CSS</h2>
+                    <p class="items-icon">&lt;/&gt;</p>
+                    <p class="items-desc"><i>Inline CSS</i> memungkinkan perubahan langsung ke satu elemen tertentu, seperti perubahan warna atau gaya tulisan.</p>
+                </div>
+            </div>
+            <div class="additional-materi">
+                <div class="materi-item">
+                    <div class="materi-image">
+                        <img src="layout html.jpeg" alt="Foto Codingan">
+                    </div>
+                    <div class="materi-text">
+                        <h2>Layout HTML</h2>
+                        <div class="text">
+                            <p><strong>Header:</strong> Ini kepala dokumen atau bagian teratas. Seperti gerbang utama yang penuh wibawa.</p>
+                            <p><strong>Nav:</strong> Di sini terletak semua navigasi untuk para pengguna, seperti peta jalur menuju halaman lainnya.</p>
+                            <p><strong>Section:</strong> Digunakan untuk membagi isi dokumen menjadi beberapa bagian. Bayangkan seperti membagi ruangan besar menjadi beberapa ruang untuk berbagai keperluan.</p>
+                            <p><strong>Article:</strong> Bagian ini mandiri, seperti artikel di surat kabar. Dapat berdiri sendiri dengan maknanya, seperti pidato yang disampaikan kepada pengunjung.</p>
+                            <p><strong>Aside:</strong> Ini bagian tambahan, seperti catatan kaki atau sidebar yang memberikan informasi sekunder.</p>
+                            <p><strong>Footer:</strong> Bagian penutup di bagian bawah halaman, seperti kata terakhir saat acara selesai.</p>
+                            <p><strong>Details dan Summary:</strong> Elemen ini digunakan untuk menyembunyikan dan menampilkan detail, seperti membuka rahasia tersembunyi. Pengguna bisa klik untuk melihat lebih banyak informasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-info" id="contact-info">
+            <h2>Informasi Kontak</h2>
+            <p><i class="ri-contacts-line"></i> Nomor Telepon: +62 83131061517</p>
+            <p><i class="ri-mail-line"></i> Email: <a href="mailto:irhamhamid026@student.unsrat.ac.id">irhamhamid026@student.unsrat.ac.id</a></p>
+            <p><i class="ri-instagram-line"></i> Instagram: <a href="https://www.instagram.com/irhamid._/" target="_blank">@irhamid._</a></p>
+            <p><i class="ri-facebook-circle-line"></i> Facebook: <a href="https://www.facebook.com/irham.hamid.794/" target="_blank">Irham Hamid</a></p>
+            <p><i class="ri-whatsapp-line"></i> Whatsapp: <a href="https://wa.me/6283131061517/" target="_blank">Irham Hamid</a></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
